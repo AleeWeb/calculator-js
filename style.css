@@ -1,0 +1,79 @@
+body {
+	background: url("pink-desk.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+#calculator, #main-head {
+	position: relative;
+	top: 120px;
+}
+#main-head {
+	font-family: 'Lobster', cursive;
+	color: #33FFFF;
+	text-shadow: 0px 3px 2px #0066CC;
+	font-size: 35px;
+}
+#calculator {
+	width: 250px;
+	height: 300px;
+	border: 1px solid black;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 1px 2px #787878;
+	background: -webkit-radial-gradient(center, circle, rgba(255, 255, 255, .35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+	background-size: 10px 10px, 10px 10px, 100% 100%;
+	background-repeat: repeat, repeat, no-repeat;
+	background-position: 1px 1px, 0px 0px, center center;
+}
+#displayScreen {
+	margin-bottom: 20px;
+	height: 30px;
+	width: 12em;
+	border: 1px solid #444;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px 1px #333;
+	text-align: right;
+	font: 20px bold;
+	background: #CCFFFF;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#99CCFF, #CCFFFF);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#99CCFF, #CCFFFF);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#99CCFF, #CCFFFF);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#99CCFF, #CCFFFF);
+	/* Standard syntax*/
+}
+#keys {
+	width: 41px;
+	height: 35px;
+	margin: 4px;
+	margin-top: 10px;
+	border-radius: 2px;
+	outline: none;
+	background-color: #CCFFFF;
+	background: -webkit-linear-gradient(#CCFFFF, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#CCFFFF, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#CCFFFF, #fff);
+	/* For Firefox 3.6 to 15 */
+	background-image: linear-gradient(#CCFFFF, #fff);
+}
+#equal {
+	width: 92px;
+	height: 35px;
+	margin: 4px;
+	border-radius: 2px;
+	outline: none;
+	background-color: #CCFFFF;
+	background: -webkit-linear-gradient(#CCFFFF, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#CCFFFF, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#CCFFFF, #fff);
+	/* For Firefox 3.6 to 15 */
+	background-image: linear-gradient(#CCFFFF, #fff);
+}
